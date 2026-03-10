@@ -38,7 +38,7 @@ $StartShortcut.Save()
 Write-Host "Created Start Menu shortcut" -ForegroundColor Green
 
 # 3. Add PowerShell function to profile
-$profileLine = 'function voice { $env:ANTHROPIC_AUTH_TOKEN="sk-sp-295f28f67311443c8d400b9e0fdfda01"; $env:ANTHROPIC_BASE_URL="https://coding.dashscope.aliyuncs.com/apps/anthropic"; $env:ANTHROPIC_MODEL="kimi-k2.5"; cd "C:\Users\Win10\voice-assistant"; python voice_assistant_kimi.py --anthropic }'
+$profileLine = 'function voice { $env:ANTHROPIC_AUTH_TOKEN="YOUR API KEY"; $env:ANTHROPIC_BASE_URL="https://coding.dashscope.aliyuncs.com/apps/anthropic"; $env:ANTHROPIC_MODEL="kimi-k2.5"; cd "C:\Users\Win10\voice-assistant"; python voice_assistant_kimi.py --anthropic }'
 
 if (-not (Test-Path $PROFILE)) {
     New-Item -Path $PROFILE -ItemType File -Force | Out-Null
