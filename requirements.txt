@@ -1,0 +1,26 @@
+# Voice Assistant Requirements
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+anthropic>=0.39.0
+openai>=1.0.0
+PyAudio>=0.2.14
+pyttsx3>=2.90
+python-dotenv>=1.0.0
+
+# Speech Recognition (choose one):
+# Option 1: Local offline recognition (recommended for China)
+vosk>=0.3.45
+
+# Option 2: Online recognition (requires internet, not available in China)
+# SpeechRecognition>=3.10.0
+
+# Optional: For better transcription with Whisper API
+# openai-whisper  # Local whisper (large model)
+
+# Optional: For ElevenLabs TTS (high quality)
+# elevenlabs>=0.2.0
+
+# Optional: Alternative audio processing
+# sounddevice>=0.4.6
+# numpy>=1.24.0
