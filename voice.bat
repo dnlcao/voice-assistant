@@ -6,7 +6,7 @@ echo ========================================
 echo.
 
 REM Set environment variables
-set "ANTHROPIC_AUTH_TOKEN=sk-sp-295f28f67311443c8d400b9e0fdfda01"
+set "ANTHROPIC_AUTH_TOKEN=YOUR API KEY"
 set "ANTHROPIC_BASE_URL=https://coding.dashscope.aliyuncs.com/apps/anthropic"
 set "ANTHROPIC_MODEL=kimi-k2.5"
 
