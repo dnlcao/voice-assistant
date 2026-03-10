@@ -3,7 +3,7 @@
 # Usage: voice
 
 # Set environment variables
-$env:ANTHROPIC_AUTH_TOKEN = "sk-sp-295f28f67311443c8d400b9e0fdfda01"
+$env:ANTHROPIC_AUTH_TOKEN = "sk-sp-your API KEY"
 $env:ANTHROPIC_BASE_URL = "https://coding.dashscope.aliyuncs.com/apps/anthropic"
 $env:ANTHROPIC_MODEL = "kimi-k2.5"
 
